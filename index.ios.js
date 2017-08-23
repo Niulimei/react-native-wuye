@@ -7,5 +7,5 @@
 
 import { AppRegistry } from 'react-native';
 import wuye from './src/wuye';
- 
+
 AppRegistry.registerComponent('wuye', () => wuye);
