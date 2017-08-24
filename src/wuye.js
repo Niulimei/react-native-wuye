@@ -12,7 +12,7 @@ export default class wuye extends Component {
   render(){
     return (
       <View style={{
-          backgroundColor: 'blue',width:200,height:300
+          backgroundColor: '#fff',width:200,height:300
         }}>
         <Header/>
       <Footer/>
