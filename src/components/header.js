@@ -6,11 +6,12 @@ import {
   View
 } from 'react-native';
 
-export default class footer extends Component {
 
+class header extends Component {
   render(){
     return (
-      <Text>footer</Text>
-    )
-  }
+    <Text>这是导航条</Text>
+  )}
 }
+
+export default  header;

@@ -5,6 +5,7 @@ import {
   Text,
   View
 } from 'react-native';
+import Header from './components/header';
 import Footer from './components/footer';
 
 export default class wuye extends Component {
@@ -13,6 +14,7 @@ export default class wuye extends Component {
       <View style={{
           backgroundColor: 'blue',width:200,height:300
         }}>
+        <Header/>
       <Footer/>
       </View>
     )
